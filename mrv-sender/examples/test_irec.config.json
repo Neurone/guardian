@@ -1,0 +1,55 @@
+{
+    "url": "http://api-gateway:3002/external",
+    "hederaAccountId": "0.0.4460386",
+    "installer": "did:hedera:testnet:5rKAhDF63SxqaRn1zDKVRjHFf3prtH5f2EzfCTrhqCMP_0.0.4459393",
+    "did": "did:hedera:testnet:2tGuMfAUQUQcjupm5oGwhwZWQ57LiJv8Ru9yYZZPZGBg_0.0.4460409",
+    "type": "2d8a13d8-5ff1-49bf-8be5-b92e851ad2b8&1.0.0",
+    "schema": {
+        "@context": {
+            "@version": 1.1,
+            "@vocab": "https://w3id.org/traceability/#undefinedTerm",
+            "id": "@id",
+            "type": "@type",
+            "2d8a13d8-5ff1-49bf-8be5-b92e851ad2b8&1.0.0": {
+                "@id": "#2d8a13d8-5ff1-49bf-8be5-b92e851ad2b8&1.0.0",
+                "@context": {
+                    "field0": { "@type": "https://www.schema.org/text" },
+                    "field1": { "@type": "https://www.schema.org/text" },
+                    "field2": { "@type": "https://www.schema.org/text" },
+                    "accountId": { "@type": "https://www.schema.org/text" },
+                    "policyId": { "@type": "https://www.schema.org/text" }
+                }
+            }
+        }
+    },
+    "context": {
+        "type": "2d8a13d8-5ff1-49bf-8be5-b92e851ad2b8&1.0.0",
+        "@context": ["ipfs://QmYVbXektYbyh3BXwP5twHPy3ZN973NCMifPLTrcPBpZUZ"]
+    },
+    "didDocument": {
+        "@context": "https://www.w3.org/ns/did/v1",
+        "id": "did:hedera:testnet:2tGuMfAUQUQcjupm5oGwhwZWQ57LiJv8Ru9yYZZPZGBg_0.0.4460409",
+        "verificationMethod": [
+            {
+                "id": "did:hedera:testnet:2tGuMfAUQUQcjupm5oGwhwZWQ57LiJv8Ru9yYZZPZGBg_0.0.4460409#did-root-key",
+                "type": "Ed25519VerificationKey2018",
+                "controller": "did:hedera:testnet:2tGuMfAUQUQcjupm5oGwhwZWQ57LiJv8Ru9yYZZPZGBg_0.0.4460409",
+                "publicKeyBase58": "BZQL88PpKWKgfStZ6ZM7Rc6vjtT1ZuFkvBZSNof3yXrH",
+                "privateKeyBase58": "2PCZaKiXt2e9aVA4p2BRFEhK5gsEN7aZnQNfibtLGMzfqsaGRFLy9AaBRgxzsgrLaBDL7tbXseZgrDFzG2dnxjR3"
+            },
+            {
+                "id": "did:hedera:testnet:2tGuMfAUQUQcjupm5oGwhwZWQ57LiJv8Ru9yYZZPZGBg_0.0.4460409#did-root-key-bbs",
+                "type": "Bls12381G2Key2020",
+                "controller": "did:hedera:testnet:2tGuMfAUQUQcjupm5oGwhwZWQ57LiJv8Ru9yYZZPZGBg_0.0.4460409",
+                "publicKeyBase58": "tG8KFqo4o7Cte46pgJcXgzj5ewbQADM7irpJAYX6FhRzeiMrXkX2K63nQ8BePoTsjg5Hrj8jV8mwQQ94Pqn6X9uDzpCeHytEdxis52qn5CoLiAxD8g2UWMXbSW2vgtFYZzV"
+            }
+        ],
+        "authentication": [
+            "did:hedera:testnet:2tGuMfAUQUQcjupm5oGwhwZWQ57LiJv8Ru9yYZZPZGBg_0.0.4460409#did-root-key"
+        ],
+        "assertionMethod": ["#did-root-key", "#did-root-key-bbs"]
+    },
+    "policyId": "644aacc2e2c1db8b2ae0fcf6",
+    "policyTag": "Tag_1682615440701",
+    "ref": "did:hedera:testnet:2tGuMfAUQUQcjupm5oGwhwZWQ57LiJv8Ru9yYZZPZGBg_0.0.4460409"
+}

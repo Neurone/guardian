@@ -3,18 +3,25 @@
 
 <head>
     <meta charset="utf-8" />
-    <title>Title</title>
+    <title>MRV Sender</title>
     <script type="application/javascript" src="script.js"></script>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style.css" />
 </head>
 
 <body>
     <div class="container">
+        <div>
+            <p>Select a configuration file (i.e. examples/test_irec.config.json). <br />You can load multiple
+                configurations at the same time.</p>
+        </div>
+        <input id="file-input" type="file" name="name" style="display: none" accept=".config.json" />
         <div id="config" class="config">
             <div class="circle"></div>
         </div>
+        <div>
+            <p>Once the configuration is ready, press the play button to generate and send a VC every 60 seconds</p>
+        </div>
         <div id="results"></div>
-        <input id="file-input" type="file" name="name" style="display: none;" accept=".config" />
     </div>
 </body>
 

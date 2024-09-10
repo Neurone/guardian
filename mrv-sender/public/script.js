@@ -376,7 +376,6 @@ function renderConfigFiles(config, index) {
 function startStop(event) {
     const btn = event.target;
     const index = btn.getAttribute("index");
-    const status = btn.getAttribute("status");
     const config = configs[index];
     if (config.start) {
         config.start = false;
@@ -395,7 +394,6 @@ function startStop(event) {
 function showHide(event) {
     const btn = event.target;
     const index = btn.getAttribute("index");
-    const status = btn.getAttribute("status");
     const config = configs[index];
     if (config.show) {
         config.show = false;
@@ -436,7 +434,7 @@ async function generateAndSendMRV(config) {
 
 async function getTemplates() {
     try {
-        const result = await fetch(location.href + 'templates', {
+        const result = await fetch(location.href + 'templates/', {
             method: 'GET', // *GET, POST, PUT, DELETE, etc.
             mode: 'cors', // no-cors, *cors, same-origin
             cache: 'no-cache', // *default, no-cache, reload, force-cache, only-if-cached
